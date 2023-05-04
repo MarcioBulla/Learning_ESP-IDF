@@ -1,0 +1,14 @@
+menu "Display_settings"
+    config I2C_ADDR
+        hex "I2C address of PCF8574"
+        default  0x27
+
+    config I2C_SCL
+        int "SCL GPIO Number"
+        default 22
+    
+
+    config I2C_SDA
+        int "SDA GPIO Number"
+        default 21
+endmenu

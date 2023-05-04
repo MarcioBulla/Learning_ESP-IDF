@@ -1,0 +1,83 @@
+-- Found Git: /usr/bin/git (found version "2.40.0") 
+-- The C compiler identification is GNU 11.2.0
+-- The CXX compiler identification is GNU 11.2.0
+-- The ASM compiler identification is GNU
+-- Found assembler: /home/cold/.espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /home/cold/.espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /home/cold/.espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Project is not inside a git repository, or git repository has no commits; will not use 'git describe' to determine PROJECT_VER.
+-- Building ESP-IDF components for target esp32
+-- Project sdkconfig file /home/cold/esp/learning_lcd/sdkconfig
+/home/cold/esp/learning_lcd/sdkconfig:214 CONFIG_MCPWM_ISR_IN_IRAM was replaced with CONFIG_MCPWM_ISR_IRAM_SAFE
+/home/cold/esp/learning_lcd/sdkconfig:293 CONFIG_ESP32_DEFAULT_CPU_FREQ_80 was replaced with CONFIG_ESP_DEFAULT_CPU_FREQ_MHZ_80
+/home/cold/esp/learning_lcd/sdkconfig:294 CONFIG_ESP32_DEFAULT_CPU_FREQ_160 was replaced with CONFIG_ESP_DEFAULT_CPU_FREQ_MHZ_160
+/home/cold/esp/learning_lcd/sdkconfig:295 CONFIG_ESP32_DEFAULT_CPU_FREQ_240 was replaced with CONFIG_ESP_DEFAULT_CPU_FREQ_MHZ_240
+/home/cold/esp/learning_lcd/sdkconfig:296 CONFIG_ESP32_DEFAULT_CPU_FREQ_MHZ was replaced with CONFIG_ESP_DEFAULT_CPU_FREQ_MHZ
+/home/cold/esp/learning_lcd/sdkconfig:297 CONFIG_ESP32_SPIRAM_SUPPORT was replaced with CONFIG_SPIRAM
+/home/cold/esp/learning_lcd/sdkconfig:300 CONFIG_ESP32_ULP_COPROC_ENABLED was replaced with CONFIG_ULP_COPROC_ENABLED
+/home/cold/esp/learning_lcd/sdkconfig:301 CONFIG_ESP32_ULP_COPROC_RESERVE_MEM was replaced with CONFIG_ULP_COPROC_RESERVE_MEM
+/home/cold/esp/learning_lcd/sdkconfig:302 CONFIG_ESP32_DEBUG_OCDAWARE was replaced with CONFIG_ESP_DEBUG_OCDAWARE
+/home/cold/esp/learning_lcd/sdkconfig:303 CONFIG_ESP32_BROWNOUT_DET was replaced with CONFIG_ESP_BROWNOUT_DET
+/home/cold/esp/learning_lcd/sdkconfig:304 CONFIG_ESP32_BROWNOUT_DET_LVL_SEL_0 was replaced with CONFIG_ESP_BROWNOUT_DET_LVL_SEL_0
+/home/cold/esp/learning_lcd/sdkconfig:305 CONFIG_ESP32_BROWNOUT_DET_LVL_SEL_1 was replaced with CONFIG_ESP_BROWNOUT_DET_LVL_SEL_1
+/home/cold/esp/learning_lcd/sdkconfig:306 CONFIG_ESP32_BROWNOUT_DET_LVL_SEL_2 was replaced with CONFIG_ESP_BROWNOUT_DET_LVL_SEL_2
+/home/cold/esp/learning_lcd/sdkconfig:307 CONFIG_ESP32_BROWNOUT_DET_LVL_SEL_3 was replaced with CONFIG_ESP_BROWNOUT_DET_LVL_SEL_3
+/home/cold/esp/learning_lcd/sdkconfig:308 CONFIG_ESP32_BROWNOUT_DET_LVL_SEL_4 was replaced with CONFIG_ESP_BROWNOUT_DET_LVL_SEL_4
+/home/cold/esp/learning_lcd/sdkconfig:309 CONFIG_ESP32_BROWNOUT_DET_LVL_SEL_5 was replaced with CONFIG_ESP_BROWNOUT_DET_LVL_SEL_5
+/home/cold/esp/learning_lcd/sdkconfig:310 CONFIG_ESP32_BROWNOUT_DET_LVL_SEL_6 was replaced with CONFIG_ESP_BROWNOUT_DET_LVL_SEL_6
+/home/cold/esp/learning_lcd/sdkconfig:311 CONFIG_ESP32_BROWNOUT_DET_LVL_SEL_7 was replaced with CONFIG_ESP_BROWNOUT_DET_LVL_SEL_7
+/home/cold/esp/learning_lcd/sdkconfig:312 CONFIG_ESP32_BROWNOUT_DET_LVL was replaced with CONFIG_ESP_BROWNOUT_DET_LVL
+/home/cold/esp/learning_lcd/sdkconfig:313 CONFIG_ESP32_TIME_SYSCALL_USE_RTC_FRC1 was replaced with CONFIG_NEWLIB_TIME_SYSCALL_USE_RTC_HRT
+/home/cold/esp/learning_lcd/sdkconfig:314 CONFIG_ESP32_TIME_SYSCALL_USE_RTC was replaced with CONFIG_NEWLIB_TIME_SYSCALL_USE_RTC
+/home/cold/esp/learning_lcd/sdkconfig:315 CONFIG_ESP32_TIME_SYSCALL_USE_FRC1 was replaced with CONFIG_NEWLIB_TIME_SYSCALL_USE_HRT
+/home/cold/esp/learning_lcd/sdkconfig:316 CONFIG_ESP32_TIME_SYSCALL_USE_NONE was replaced with CONFIG_NEWLIB_TIME_SYSCALL_USE_NONE
+/home/cold/esp/learning_lcd/sdkconfig:317 CONFIG_ESP32_RTC_CLK_SRC_INT_RC was replaced with CONFIG_RTC_CLK_SRC_INT_RC
+/home/cold/esp/learning_lcd/sdkconfig:318 CONFIG_ESP32_RTC_CLK_SRC_EXT_CRYS was replaced with CONFIG_RTC_CLK_SRC_EXT_CRYS
+/home/cold/esp/learning_lcd/sdkconfig:319 CONFIG_ESP32_RTC_CLK_SRC_EXT_OSC was replaced with CONFIG_RTC_CLK_SRC_EXT_OSC
+/home/cold/esp/learning_lcd/sdkconfig:320 CONFIG_ESP32_RTC_CLK_SRC_INT_8MD256 was replaced with CONFIG_RTC_CLK_SRC_INT_8MD256
+/home/cold/esp/learning_lcd/sdkconfig:321 CONFIG_ESP32_RTC_CLK_CAL_CYCLES was replaced with CONFIG_RTC_CLK_CAL_CYCLES
+/home/cold/esp/learning_lcd/sdkconfig:322 CONFIG_ESP32_DEEP_SLEEP_WAKEUP_DELAY was replaced with CONFIG_ESP_SLEEP_DEEP_SLEEP_WAKEUP_DELAY
+/home/cold/esp/learning_lcd/sdkconfig:323 CONFIG_ESP32_XTAL_FREQ_40 was replaced with CONFIG_XTAL_FREQ_40
+/home/cold/esp/learning_lcd/sdkconfig:324 CONFIG_ESP32_XTAL_FREQ_26 was replaced with CONFIG_XTAL_FREQ_26
+/home/cold/esp/learning_lcd/sdkconfig:325 CONFIG_ESP32_XTAL_FREQ_AUTO was replaced with CONFIG_XTAL_FREQ_AUTO
+/home/cold/esp/learning_lcd/sdkconfig:326 CONFIG_ESP32_XTAL_FREQ was replaced with CONFIG_XTAL_FREQ
+/home/cold/esp/learning_lcd/sdkconfig:328 CONFIG_ESP32_NO_BLOBS was replaced with CONFIG_APP_NO_BLOBS
+/home/cold/esp/learning_lcd/sdkconfig:329 CONFIG_ESP32_COMPATIBLE_PRE_V2_1_BOOTLOADERS was replaced with CONFIG_APP_COMPATIBLE_PRE_V2_1_BOOTLOADERS
+/home/cold/esp/learning_lcd/sdkconfig:330 CONFIG_ESP32_COMPATIBLE_PRE_V3_1_BOOTLOADERS was replaced with CONFIG_APP_COMPATIBLE_PRE_V3_1_BOOTLOADERS
+/home/cold/esp/learning_lcd/sdkconfig:403 CONFIG_OTA_ALLOW_HTTP was replaced with CONFIG_ESP_HTTPS_OTA_ALLOW_HTTP
+/home/cold/esp/learning_lcd/sdkconfig:527 CONFIG_ESP_TASK_WDT was replaced with CONFIG_ESP_TASK_WDT_INIT
+/home/cold/esp/learning_lcd/sdkconfig:703 CONFIG_HAL_ASSERTION_SILIENT was replaced with CONFIG_HAL_ASSERTION_SILENT
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of time_t
+-- Check size of time_t - done
+-- Found Python3: /home/cold/.espressif/python_env/idf5.0_py3.11_env/bin/python (found version "3.11.3") found components: Interpreter 
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS - Success
+-- App "learning_lcd" version: 1
+-- Adding linker script /home/cold/esp/learning_lcd/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script /home/cold/esp/esp-idf/components/esp_system/ld/esp32/sections.ld.in
+-- Adding linker script /home/cold/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script /home/cold/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script /home/cold/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script /home/cold/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-data.ld
+-- Adding linker script /home/cold/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.syscalls.ld
+-- Adding linker script /home/cold/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+-- Adding linker script /home/cold/esp/esp-idf/components/soc/esp32/ld/esp32.peripherals.ld
+-- Components: ads111x ads130e08 aht app_trace app_update bh1750 bh1900nux bme680 bmp180 bmp280 bootloader bootloader_support bt button ccs811 cmock color console cxx dht dps310 driver ds1302 ds1307 ds18x20 ds3231 ds3502 efuse encoder esp-tls esp_adc esp_app_format esp_common esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_idf_lib_helpers esp_lcd esp_local_ctrl esp_netif esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_system esp_timer esp_wifi espcoredump esptool_py example fatfs framebuffer freertos hal hd44780 hdc1000 heap hmc5883l ht16k33 hts221 http_parser hx711 i2cdev icm42670 idf_test ieee802154 ina219 ina260 ina3221 json lc709203f led_strip led_strip_spi lib8tion lm75 log ls7366r lwip main max31725 max31855 max31865 max7219 mbedtls mcp23008 mcp23x17 mcp342x mcp4725 mcp960x mcp9808 mhz19b mqtt ms5611 newlib noise nvs_flash onewire openthread partition_table pca9557 pca9685 pcf8563 pcf8574 pcf8575 pcf8591 perfmon protobuf-c protocomm pthread qmc5883l rda5807m scd30 scd4x sdmmc sgp40 sht3x sht4x si7021 soc spi_flash spiffs sts21 tca9548 tca95x5 tcp_transport tda74xx tsl2561 tsl2591 tsl4531 tsys01 ulp ultrasonic unity usb veml7700 vfs wear_levelling wiegand wifi_provisioning wpa_supplicant xtensa
+-- Component paths: /home/cold/esp/esp-idf-lib/components/ads111x /home/cold/esp/esp-idf-lib/components/ads130e08 /home/cold/esp/esp-idf-lib/components/aht /home/cold/esp/esp-idf/components/app_trace /home/cold/esp/esp-idf/components/app_update /home/cold/esp/esp-idf-lib/components/bh1750 /home/cold/esp/esp-idf-lib/components/bh1900nux /home/cold/esp/esp-idf-lib/components/bme680 /home/cold/esp/esp-idf-lib/components/bmp180 /home/cold/esp/esp-idf-lib/components/bmp280 /home/cold/esp/esp-idf/components/bootloader /home/cold/esp/esp-idf/components/bootloader_support /home/cold/esp/esp-idf/components/bt /home/cold/esp/esp-idf-lib/components/button /home/cold/esp/esp-idf-lib/components/ccs811 /home/cold/esp/esp-idf/components/cmock /home/cold/esp/esp-idf-lib/components/color /home/cold/esp/esp-idf/components/console /home/cold/esp/esp-idf/components/cxx /home/cold/esp/esp-idf-lib/components/dht /home/cold/esp/esp-idf-lib/components/dps310 /home/cold/esp/esp-idf/components/driver /home/cold/esp/esp-idf-lib/components/ds1302 /home/cold/esp/esp-idf-lib/components/ds1307 /home/cold/esp/esp-idf-lib/components/ds18x20 /home/cold/esp/esp-idf-lib/components/ds3231 /home/cold/esp/esp-idf-lib/components/ds3502 /home/cold/esp/esp-idf/components/efuse /home/cold/esp/esp-idf-lib/components/encoder /home/cold/esp/esp-idf/components/esp-tls /home/cold/esp/esp-idf/components/esp_adc /home/cold/esp/esp-idf/components/esp_app_format /home/cold/esp/esp-idf/components/esp_common /home/cold/esp/esp-idf/components/esp_eth /home/cold/esp/esp-idf/components/esp_event /home/cold/esp/esp-idf/components/esp_gdbstub /home/cold/esp/esp-idf/components/esp_hid /home/cold/esp/esp-idf/components/esp_http_client /home/cold/esp/esp-idf/components/esp_http_server /home/cold/esp/esp-idf/components/esp_https_ota /home/cold/esp/esp-idf/components/esp_https_server /home/cold/esp/esp-idf/components/esp_hw_support /home/cold/esp/esp-idf-lib/components/esp_idf_lib_helpers /home/cold/esp/esp-idf/components/esp_lcd /home/cold/esp/esp-idf/components/esp_local_ctrl /home/cold/esp/esp-idf/components/esp_netif /home/cold/esp/esp-idf/components/esp_partition /home/cold/esp/esp-idf/components/esp_phy /home/cold/esp/esp-idf/components/esp_pm /home/cold/esp/esp-idf/components/esp_psram /home/cold/esp/esp-idf/components/esp_ringbuf /home/cold/esp/esp-idf/components/esp_rom /home/cold/esp/esp-idf/components/esp_system /home/cold/esp/esp-idf/components/esp_timer /home/cold/esp/esp-idf/components/esp_wifi /home/cold/esp/esp-idf/components/espcoredump /home/cold/esp/esp-idf/components/esptool_py /home/cold/esp/esp-idf-lib/components/example /home/cold/esp/esp-idf/components/fatfs /home/cold/esp/esp-idf-lib/components/framebuffer /home/cold/esp/esp-idf/components/freertos /home/cold/esp/esp-idf/components/hal /home/cold/esp/esp-idf-lib/components/hd44780 /home/cold/esp/esp-idf-lib/components/hdc1000 /home/cold/esp/esp-idf/components/heap /home/cold/esp/esp-idf-lib/components/hmc5883l /home/cold/esp/esp-idf-lib/components/ht16k33 /home/cold/esp/esp-idf-lib/components/hts221 /home/cold/esp/esp-idf/components/http_parser /home/cold/esp/esp-idf-lib/components/hx711 /home/cold/esp/esp-idf-lib/components/i2cdev /home/cold/esp/esp-idf-lib/components/icm42670 /home/cold/esp/esp-idf/components/idf_test /home/cold/esp/esp-idf/components/ieee802154 /home/cold/esp/esp-idf-lib/components/ina219 /home/cold/esp/esp-idf-lib/components/ina260 /home/cold/esp/esp-idf-lib/components/ina3221 /home/cold/esp/esp-idf/components/json /home/cold/esp/esp-idf-lib/components/lc709203f /home/cold/esp/esp-idf-lib/components/led_strip /home/cold/esp/esp-idf-lib/components/led_strip_spi /home/cold/esp/esp-idf-lib/components/lib8tion /home/cold/esp/esp-idf-lib/components/lm75 /home/cold/esp/esp-idf/components/log /home/cold/esp/esp-idf-lib/components/ls7366r /home/cold/esp/esp-idf/components/lwip /home/cold/esp/learning_lcd/main /home/cold/esp/esp-idf-lib/components/max31725 /home/cold/esp/esp-idf-lib/components/max31855 /home/cold/esp/esp-idf-lib/components/max31865 /home/cold/esp/esp-idf-lib/components/max7219 /home/cold/esp/esp-idf/components/mbedtls /home/cold/esp/esp-idf-lib/components/mcp23008 /home/cold/esp/esp-idf-lib/components/mcp23x17 /home/cold/esp/esp-idf-lib/components/mcp342x /home/cold/esp/esp-idf-lib/components/mcp4725 /home/cold/esp/esp-idf-lib/components/mcp960x /home/cold/esp/esp-idf-lib/components/mcp9808 /home/cold/esp/esp-idf-lib/components/mhz19b /home/cold/esp/esp-idf/components/mqtt /home/cold/esp/esp-idf-lib/components/ms5611 /home/cold/esp/esp-idf/components/newlib /home/cold/esp/esp-idf-lib/components/noise /home/cold/esp/esp-idf/components/nvs_flash /home/cold/esp/esp-idf-lib/components/onewire /home/cold/esp/esp-idf/components/openthread /home/cold/esp/esp-idf/components/partition_table /home/cold/esp/esp-idf-lib/components/pca9557 /home/cold/esp/esp-idf-lib/components/pca9685 /home/cold/esp/esp-idf-lib/components/pcf8563 /home/cold/esp/esp-idf-lib/components/pcf8574 /home/cold/esp/esp-idf-lib/components/pcf8575 /home/cold/esp/esp-idf-lib/components/pcf8591 /home/cold/esp/esp-idf/components/perfmon /home/cold/esp/esp-idf/components/protobuf-c /home/cold/esp/esp-idf/components/protocomm /home/cold/esp/esp-idf/components/pthread /home/cold/esp/esp-idf-lib/components/qmc5883l /home/cold/esp/esp-idf-lib/components/rda5807m /home/cold/esp/esp-idf-lib/components/scd30 /home/cold/esp/esp-idf-lib/components/scd4x /home/cold/esp/esp-idf/components/sdmmc /home/cold/esp/esp-idf-lib/components/sgp40 /home/cold/esp/esp-idf-lib/components/sht3x /home/cold/esp/esp-idf-lib/components/sht4x /home/cold/esp/esp-idf-lib/components/si7021 /home/cold/esp/esp-idf/components/soc /home/cold/esp/esp-idf/components/spi_flash /home/cold/esp/esp-idf/components/spiffs /home/cold/esp/esp-idf-lib/components/sts21 /home/cold/esp/esp-idf-lib/components/tca9548 /home/cold/esp/esp-idf-lib/components/tca95x5 /home/cold/esp/esp-idf/components/tcp_transport /home/cold/esp/esp-idf-lib/components/tda74xx /home/cold/esp/esp-idf-lib/components/tsl2561 /home/cold/esp/esp-idf-lib/components/tsl2591 /home/cold/esp/esp-idf-lib/components/tsl4531 /home/cold/esp/esp-idf-lib/components/tsys01 /home/cold/esp/esp-idf/components/ulp /home/cold/esp/esp-idf-lib/components/ultrasonic /home/cold/esp/esp-idf/components/unity /home/cold/esp/esp-idf/components/usb /home/cold/esp/esp-idf-lib/components/veml7700 /home/cold/esp/esp-idf/components/vfs /home/cold/esp/esp-idf/components/wear_levelling /home/cold/esp/esp-idf-lib/components/wiegand /home/cold/esp/esp-idf/components/wifi_provisioning /home/cold/esp/esp-idf/components/wpa_supplicant /home/cold/esp/esp-idf/components/xtensa
+-- Configuring done (38.0s)
+-- Generating done (3.4s)
+-- Build files have been written to: /home/cold/esp/learning_lcd/build

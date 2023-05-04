@@ -1,0 +1,32 @@
+{
+    "configurations": [
+        {
+            "name": "ESP-IDF",
+            "compilerPath": "/home/cold/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc",
+            "includePath": [
+                "${config:idf.espIdfPath}/components/**",
+                "${config:idf.espIdfPathWin}/components/**",
+                "${config:idf.espAdfPath}/components/**",
+                "${config:idf.espAdfPathWin}/components/**",
+                "${workspaceFolder}/**",
+                "/home/cold/esp/esp-idf-lib/components/**",
+                "/home/cold/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include",
+                "/home/cold/esp/esp-idf-lib/components/hd44780",
+                "/home/cold/esp/esp-idf-lib/components/pcf8574",
+                "/home/cold/esp/esp-idf/components/freertos/esp_additions/include/freertos"
+            ],
+            "browse": {
+                "path": [
+                    "${config:idf.espIdfPath}/components",
+                    "${config:idf.espIdfPathWin}/components",
+                    "${config:idf.espAdfPath}/components/**",
+                    "${config:idf.espAdfPathWin}/components/**",
+                    "${workspaceFolder}",
+                    "/home/cold/esp/esp-idf-lib/components"
+                ],
+                "limitSymbolsToIncludedHeaders": false
+            }
+        }
+    ],
+    "version": 4
+}
