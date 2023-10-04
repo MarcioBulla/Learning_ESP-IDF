@@ -1,5 +1,0 @@
--- Found Git: /usr/bin/git (found version "2.40.0") 
--- The C compiler identification is GNU 11.2.0
--- The CXX compiler identification is GNU 11.2.0
--- The ASM compiler identification is GNU
--- Found assembler: /home/cold/.espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc

@@ -1,8 +1,0 @@
-CMake Error at /home/cold/esp/esp-idf/tools/cmake/project.cmake:243 (message):
-  Directory specified in EXTRA_COMPONENT_DIRS doesn't exist:
-  /home/cold/esp/esp-idf-lib/component
-Call Stack (most recent call first):
-  /home/cold/esp/esp-idf/tools/cmake/project.cmake:327 (__project_init)
-  CMakeLists.txt:9 (project)
-
-

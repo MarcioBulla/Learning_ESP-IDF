@@ -1,7 +1,0 @@
-[1/4] cd /home/cold/esp/learning_components/build/esp-idf/esptool_py && /home/cold/.espressif/python_env/idf5.0_py3.11_env/bin/python /home/cold/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/cold/esp/learning_components/build/partition_table/partition-table.bin /home/cold/esp/learning_components/build/learning_components.bin
-learning_components.bin binary size 0x2d4c0 bytes. Smallest app partition is 0x100000 bytes. 0xd2b40 bytes (82%) free.
-[2/4] Performing build step for 'bootloader'
-[1/1] cd /home/cold/esp/learning_components/build/bootloader/esp-idf/esptool_py && /home/cold/.espressif/python_env/idf5.0_py3.11_env/bin/python /home/cold/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/cold/esp/learning_components/build/bootloader/bootloader.bin
-Bootloader binary size 0x6700 bytes. 0x900 bytes (8%) free.
-[3/4] No install step for 'bootloader'
-[4/4] Completed 'bootloader'
